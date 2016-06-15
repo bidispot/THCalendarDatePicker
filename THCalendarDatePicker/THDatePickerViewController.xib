@@ -42,7 +42,7 @@
                                 <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6">
                                     <rect key="frame" x="0.0" y="3" width="50" height="36"/>
                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                    <inset key="imageEdgeInsets" minX="2" minY="1" maxX="2" maxY="1"/>
+                                    <inset key="imageEdgeInsets" minX="8" minY="2" maxX="8" maxY="2"/>
                                     <state key="normal" image="dialog_cancel">
                                         <color key="titleColor" red="0.99989169836044312" green="1" blue="0.99988096952438354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="titleShadowColor" red="0.99989169836044312" green="1" blue="0.99988096952438354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -122,7 +122,7 @@
                                     <rect key="frame" x="101" y="3" width="120" height="36"/>
                                     <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
                                     <state key="normal">
-                                        <color key="titleColor" red="0.99989169836044312" green="1" blue="0.99988096952438354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
                                     <state key="disabled" image="calendar_clear-disabled"/>
                                     <state key="highlighted">
@@ -134,10 +134,9 @@
                                 </button>
                                 <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8">
                                     <rect key="frame" x="270" y="3" width="50" height="36"/>
-                                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
-                                    <inset key="imageEdgeInsets" minX="8" minY="2" maxX="8" maxY="2"/>
-                                    <state key="normal" image="dialog_ok">
-                                        <color key="titleColor" red="0.99989169836044312" green="1" blue="0.99988096952438354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="16"/>
+                                    <state key="normal" title="Ok">
+                                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="titleShadowColor" red="0.99989169836044312" green="1" blue="0.99988096952438354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
                                     <state key="disabled" image="calendar_ok-disabled"/>
@@ -152,7 +151,7 @@
                                     <rect key="frame" x="86" y="40" width="150" height="50"/>
                                     <string key="text">Year
 Month</string>
-                                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="16"/>
                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
@@ -201,6 +200,5 @@ Month</string>
         <image name="calendar_clear-disabled" width="37" height="37"/>
         <image name="calendar_ok-disabled" width="37" height="37"/>
         <image name="dialog_cancel" width="37" height="37"/>
-        <image name="dialog_ok" width="37" height="37"/>
     </resources>
 </document>
